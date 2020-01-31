@@ -1,0 +1,228 @@
+body{
+    background-color: #e3fdfd;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Bad Script', cursive;
+    font-size: 7em ;
+    margin: 0px;
+    padding-top: 70px;
+}
+
+h2 {
+    color: #1e666d;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color:#e3fdfd ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+}
+
+h5{
+    font-size: 0.7em;
+}
+
+hr {
+    clear: both;
+}
+
+/* Table */
+table{
+  border-collapse: collapse;
+  border: 2px solid #1e666d;
+  height: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50em;
+}
+
+table thead{
+    background-color: #aad6d6;
+    font-size: 1.2em;
+}
+
+table tbody {
+    background-color: #e2fafa;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table td, table th{
+    border: 1px solid #68a8ad;
+}
+
+table .table1 {
+    font-size: 0.7em;
+}
+
+/* List */
+ul {
+    list-style-position: inside;    
+    list-style-type: none;
+}
+
+ 
+.list li::before {
+    color: #1e666d;
+    content: "• ";
+  }
+
+/* Classes */
+.top_bar{
+    background: #574f7d;
+    font-family: 'Montserrat', sans-serif;
+    height: 2.3em;
+    list-style: none;
+    margin: 0px;
+    overflow: auto;
+    padding: 0px;
+    position: fixed;
+    width: 100%;    
+}
+
+.top_bar li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin-top: 5px;   
+}
+
+.top_bar li a{
+    color: #e3fdfd;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.top_bar li a:hover {
+    background-color: #9a93b9;
+}
+
+.top {
+    background:url("https://images.unsplash.com/photo-1560274445-18bd70cbb65f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center/cover ;
+    color:#e3fdfd ;
+    height: 399px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.middle {
+    background-color: #e3fdfd;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.bottom{
+    background-color: #95adbe;
+}
+
+/* Heading classes */
+.hr1{
+    background-color:#574f7d;
+    border-left: none;
+    border-right: none;
+    border-style: dotted;
+    border-top: none;
+    border-width: 1em;
+    color: #e3fdfd;
+    margin: 0px;
+}
+
+.hr2 {
+    border-left: none;
+    border-right: none;
+    border-style: dotted;
+    border-top: none;
+    border-width: 1em;
+    color: #95adbe;
+    margin-inline-end: 70%;
+    margin-inline-start: 30%;
+    margin: 0px;
+    width: 30%;  
+}
+
+.box {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.images_glas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 30px auto;
+}
+
+.poem {
+    color: #1a242b;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* ID's */
+#karte_ostsee{
+    float: left;
+    margin: 2em 3em 3em;
+    width:400px;
+}
+
+#image_pia {
+    border-radius: 260px;
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 25%;
+}
+
+#image_kette {
+    border-radius: 260px;
+    width: 20%;  
+}
+
+#image_engel {
+    border-radius: 260px;
+    width: 20%;
+}
+
+#image_kette{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image_engel{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image_eiszeit{
+    float: right;
+    margin: 3em 3em 3em;
+}
+
+#box1 {
+    margin-top: 3em;
+}
+
+#box2 {
+    clear: left;
+}
+
+#box4 {
+    text-align: center;
+}
+
+#box5 {
+    text-align: center;
+}
+
+
+
